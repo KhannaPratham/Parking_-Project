@@ -1,0 +1,27 @@
+#footer {
+  background-color: #333;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+#footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+#footer-about, #footer-contact {
+  flex: 1;
+  margin: 10px;
+}
+
+#footer-about h2, #footer-contact h2 {
+  margin: 0 0 10px;
+}
+
+#footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+}
